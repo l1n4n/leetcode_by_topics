@@ -1,2 +1,2 @@
 # leetcode by topics
-## D
+## Divide and Conquer
