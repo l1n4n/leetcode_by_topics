@@ -21,10 +21,10 @@ class Solution:
                 return mid
             elif mid < x / mid:
                 left = mid + 1
-                res = mid # keep the lower int bound in case x's sqrt is not an integer
+                # res = mid # keep the lower int bound in case x's sqrt is not an integer
             else:
                 right = mid - 1
-        return res
+        return left - 1
 # Newton
 class Solution:
     def mySqrt(self, x):
